@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
         <div *ngFor="let pokemon of pokemonList" class="col m4 s6">
-            <div class="card horizontal">
+            <div class="card horizontal" appBorderCard>
                 <div class="card-image">
                     <img [src]="pokemon.picture">
                 </div>
@@ -24,7 +24,7 @@
 </div>
 
 <p *ngIf="pokemonSelected">
-    Vous avez sélectionné le pokémon: {{ pokemonSelected?.name }}
+    Vous avez sélectionné le pokémon: {{ pokemonSelected.name }}
 </p>
 <p *ngIf="!pokemonSelected">
     Aucun pokémon trouvé.

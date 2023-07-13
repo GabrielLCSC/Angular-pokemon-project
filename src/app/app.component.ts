@@ -7,6 +7,7 @@ import { Pokemon } from './pokemon';
   templateUrl: 'app.component.html',
   styles: []
 })
+
 export class AppComponent implements OnInit {
   pokemonList: Pokemon[] = POKEMONS;
   pokemonSelected: Pokemon|undefined;
