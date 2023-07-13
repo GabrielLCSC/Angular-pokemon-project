@@ -1,3 +1,6 @@
+# 🎨 My first AngularJS project
+## 📝 The goal is to create an application that displays a list of pokémons, with the option of modifying them and creating new ones.
+
 # AngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
