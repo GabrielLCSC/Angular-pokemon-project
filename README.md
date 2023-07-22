@@ -1,4 +1,4 @@
-# 🎨 My first AngularJS project
+# 🎨 My first AngularJS project (in progress)
 ## 📝 The goal is to create an application that displays a list of pokémons, with the option of modifying them and creating new ones.
 
 # AngularProject
