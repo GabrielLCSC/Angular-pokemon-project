@@ -4,6 +4,8 @@
     (keyup.enter)="selectPokemon(input.value)"
     type="number"
 > -->
+<router-outlet></router-outlet>
+
 <div class="container">
     <div class="row">
         <div *ngFor="let pokemon of pokemonList" class="col m4 s6">
@@ -22,7 +24,6 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
 </div>
